@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginLeft="50sp"
+        android:hint="USER NAME :"
+        android:textSize="25sp">
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="300sp"
+        android:hint="PASSWORD :"
+        android:inputType="textPassword"
+        android:textSize="25sp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="50sp"
+        android:text="LOGIN"
+        android:textSize="20sp">
+    </Button>
+
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="120sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="400sp"
+        android:layout_marginLeft="200sp"
+        android:text="CANCEL"
+        android:textSize="20sp">
+    </Button>
+
+</RelativeLayout>
